@@ -1,0 +1,142 @@
+.languagePicker {
+    position: absolute;
+    right: 3%;
+    top: 7%;
+
+}
+
+.languageSelect {
+    /* position:sticky; */
+    border-radius: 15px;
+    border-color: darkturquoise;
+    background-color: #d9fafd;
+    /* z-index: 1; */
+}
+
+
+.languageSelect:hover {
+    overflow: auto;
+}
+
+/* option:hover{
+    border-radius: 10px;
+    color:red;
+    background-color: deeppink;
+} */
+
+.languageSelect option:hover {
+    background-color: #ff0000
+}
+
+
+h1 {
+    background-color: aliceblue
+}
+
+/* Header ends here */
+
+
+input[type=text] {
+    margin-top: 10px;
+    width: 40%;
+    height: 2rem;
+    border-radius: 15px;
+    border-color: green;
+    text-align: inherit;
+    /* background-color: aliceblue; */
+}
+
+input[type=text]:hover {
+    background-color: aliceblue;
+}
+
+body {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.opButtons {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+
+form {
+    background-color: rgb(204, 243, 243);
+}
+
+#butt1, #butt2 {
+    height: 4em;
+    flex: 50%;
+    padding: 2%;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10%;
+    border-color: cadetblue;
+    background-color: darkturquoise;
+}
+
+#butt1:hover {
+    background-color: rgb(18, 238, 4);
+}
+
+#butt2:hover {
+    background-color: red;
+    color:white;
+}
+
+
+/* Language selector
+TODO: Change label dropbtn -> language */
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #9fdbf3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

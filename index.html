@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="Author" content="Jon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <noscript>This page needs JavaScript enabled to work</noscript>
+</head>
+
+
+<header>
+
+    <h1 class="h1">
+
+        Number converter
+    </h1>
+
+
+    <div class="dropdown">
+        <button class="dropbtn">English</button>
+        <div class="dropdown-content">
+
+            <a onclick="changeLanguage('en')">English</a>
+            <a onclick="changeLanguage('es')">Español </a>
+            <a onclick="changeLanguage('eu')">Euskara</a>
+
+        </div>
+    </div>
+
+</header>
+
+<body>
+
+
+    <h2 class="h2">
+        Enter a number in one of the fields and press calculate
+
+    </h2>
+    <h3 id="Notificationh3">
+
+    </h3>
+    <div>
+        <form>
+
+            <input name="Decimal" type="text" id="Dec" placeholder="Decimal system" /><br>
+            <input name="Hexadecimal" type="text" id="Hex" placeholder="Hexadecimal system" /><br>
+            <input name="Binary" type="text" id="Bin" placeholder="Binary system" /><br>
+
+            <div class="opButtons">
+                <button type="button" id="butt1">Calculate </button>
+                <button type="button" id="butt2">Clear </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+</html>
